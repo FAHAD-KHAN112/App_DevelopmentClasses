@@ -1,8 +1,8 @@
 class Student {
-  String a = "";
-  String name = "";
-  int b = 0;
-  int Regno = 0;
+  String? a;
+  String? name;
+  int? b;
+  int? Regno;
 
   Student() {
     print("This is a Constructor");
