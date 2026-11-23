@@ -15,6 +15,15 @@ class MyName() {
   }
 }
 
+class student {
+  String name = "";
+  String Reg_no = "";
+  void display() {
+    print('Name : ${this.name}');
+    print("Reg_No : ${this.Reg_no}");
+  }
+}
+
 void main() {
   Car car = Car();
   print(car.brand);
@@ -25,4 +34,13 @@ void main() {
   print(Data.Semester);
   print(Data.Reg_no);
   Data.dept();
+  student s1 = new student();
+  s1.name = "john";
+  s1.Reg_no = "123Abc";
+  student s2 = new student();
+  s2.name = "Noor";
+  s2.Reg_no = "222Abc";
+
+  s1.display();
+  s2.display();
 }
