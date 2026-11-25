@@ -29,8 +29,6 @@ void main() {
   Student s1 = Student.profile("Fahad", 2);
   print(s1);
   s1.simple();
-
   Student s2 = Student();
-
   Student s3 = Student.pro("Fahad", 1392);
 }
